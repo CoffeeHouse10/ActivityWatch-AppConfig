@@ -1,0 +1,298 @@
+{
+  "categories": [
+    {
+      "name": [
+        "Work"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Google Docs|libreoffice|ReText|Microsoft Word|Evernote|Notion|Asana|Trello|Jira|Google Sheets|Microsoft Excel|Google Slides|Microsoft PowerPoint|Adobe Acrobat|Foxit Reader|Zotero|Mendeley|Confluence|ClickUp|Monday.com|Basecamp|Quip|Coda|Obsidian|OneNote|Overleaf|Scrivener|Smartsheet"
+      },
+      "data": {
+        "color": "#0F0",
+        "score": 10
+      },
+      "name_pretty": "Work",
+      "subname": "Work",
+      "parent": null,
+      "depth": 0,
+      "id": 0
+    },
+    {
+      "name": [
+        "Work",
+        "Programming"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "GitHub|Stack Overflow|BitBucket|Gitlab|vim|Spyder|kate|Ghidra|Scite|Visual Studio Code|Eclipse|IntelliJ IDEA|PyCharm|Sublime Text|Atom|Jupyter Notebook|Docker|Kubernetes|Ansible|Jenkins|NetBeans|Android Studio"
+      },
+      "name_pretty": "Work>Programming",
+      "subname": "Programming",
+      "parent": [
+        "Work"
+      ],
+      "depth": 1,
+      "id": 1,
+      "data": {}
+    },
+    {
+      "name": [
+        "Work",
+        "Programming",
+        "ActivityWatch"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "ActivityWatch|aw-",
+        "ignore_case": true
+      },
+      "name_pretty": "Work>Programming>ActivityWatch",
+      "subname": "ActivityWatch",
+      "parent": [
+        "Work",
+        "Programming"
+      ],
+      "depth": 2,
+      "id": 2
+    },
+    {
+      "name": [
+        "Work",
+        "Image"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "GIMP|Inkscape|Adobe Photoshop|Adobe Illustrator|Adobe Lightroom|Figma|Sketch|Krita|Pinta|Shotcut|digiKam|darktable|RawTherapee|XnView MP"
+      },
+      "name_pretty": "Work>Image",
+      "subname": "Image",
+      "parent": [
+        "Work"
+      ],
+      "depth": 1,
+      "id": 3,
+      "data": {}
+    },
+    {
+      "name": [
+        "Work",
+        "Video"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Kdenlive|Adobe Premiere Pro|DaVinci Resolve|Final Cut Pro|HandBrake|OBS Studio|Shotcut|VLC|MPV|MPlayer|Kodi"
+      },
+      "name_pretty": "Work>Video",
+      "subname": "Video",
+      "parent": [
+        "Work"
+      ],
+      "depth": 1,
+      "id": 4,
+      "data": {}
+    },
+    {
+      "name": [
+        "Work",
+        "Audio"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Audacity|Adobe Audition|Ableton Live|FL Studio|Logic Pro X|GarageBand|Reaper|LMMS|Ardour|Ocenaudio"
+      },
+      "name_pretty": "Work>Audio",
+      "subname": "Audio",
+      "parent": [
+        "Work"
+      ],
+      "depth": 1,
+      "id": 5,
+      "data": {}
+    },
+    {
+      "name": [
+        "Work",
+        "3D"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Blender|Autodesk Maya|Autodesk 3ds Max|Cinema 4D|ZBrush|SketchUp|Substance Painter|MeshLab|Marmoset Toolbag|Rhinoceros"
+      },
+      "name_pretty": "Work>3D",
+      "subname": "3D",
+      "parent": [
+        "Work"
+      ],
+      "depth": 1,
+      "id": 6,
+      "data": {}
+    },
+    {
+      "name": [
+        "Media"
+      ],
+      "rule": {
+        "type": "none"
+      },
+      "data": {
+        "color": "#F33"
+      },
+      "name_pretty": "Media",
+      "subname": "Media",
+      "parent": null,
+      "depth": 0,
+      "id": 7
+    },
+    {
+      "name": [
+        "Media",
+        "Games"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Minecraft|Terraria|Stardew Valley|Factorio|RimWorld|Dwarf Fortress|Oxygen Not Included|Satisfactory|The Sims|Cities: Skylines|Banished|SimCity|Valheim|Rust|Ark: Survival Evolved|Conan Exiles|7 Days to Die|Eco|Space Engineers|Vintage Story|Civilization VI|Civilization V|Age of Empires II|Age of Empires IV|StarCraft II|Warcraft III|Total War: Warhammer II|Total War: Warhammer III|Total War: Shogun 2|Total War: Rome II|Company of Heroes|Company of Heroes 2|Hearts of Iron IV|Europa Universalis IV|Crusader Kings III|Crusader Kings II|XCOM 2|XCOM: Enemy Unknown|Planet Zoo|Planet Coaster|RollerCoaster Tycoon|Anno 1800|Anno 2070|Tropico 6|Tropico 5|Prison Architect|Frostpunk|Surviving Mars|Endless Legend|Endless Space 2|Battle Brothers|World of Warcraft|Final Fantasy XIV|Guild Wars 2|Elder Scrolls Online|Runescape|Old School Runescape|Black Desert Online|EVE Online|Lost Ark|Star Wars The Old Republic|New World|Albion Online|MapleStory|MapleStory 2|TERA|Rift|EverQuest|EverQuest II|Lord of the Rings Online|Ultima Online|Counter-Strike|Counter-Strike: Source|Counter-Strike: Global Offensive|Counter-Strike 2|Valorant|Overwatch|Overwatch 2|Apex Legends|Fortnite|PUBG|Call of Duty|Call of Duty: Modern Warfare|Call of Duty: Warzone|Call of Duty: Black Ops|Call of Duty: Vanguard|Battlefield 1|Battlefield 4|Battlefield V|Battlefield 2042|Halo Infinite|Halo: Master Chief Collection|Rainbow Six Siege|Team Fortress 2|Paladins|Destiny 2|Titanfall 2|Quake Champions|Doom Eternal|Doom 2016|Escape from Tarkov|League of Legends|Dota 2|Smite|Heroes of the Storm|Arena of Valor|Mobile Legends|Vainglory|The Witcher 3|Cyberpunk 2077|Elden Ring|Dark Souls|Dark Souls II|Dark Souls III|Bloodborne|Sekiro|Demon's Souls|Skyrim|Fallout 3|Fallout: New Vegas|Fallout 4|Fallout 76|Dragon Age: Origins|Dragon Age II|Dragon Age: Inquisition|Mass Effect|Mass Effect 2|Mass Effect 3|Mass Effect Legendary Edition|Mass Effect Andromeda|Baldur's Gate|Baldur's Gate II|Baldur's Gate 3|Divinity Original Sin|Divinity Original Sin 2|Pathfinder: Kingmaker|Pathfinder: Wrath of the Righteous|Disco Elysium|Torment: Tides of Numenera|Arcanum|Planescape: Torment|Neverwinter Nights|Neverwinter Nights 2|Diablo II|Diablo III|Diablo IV|Path of Exile|Torchlight|Torchlight II|Grim Dawn|Monster Hunter World|Monster Hunter Rise|Undertale|Hollow Knight|Celeste|Cuphead|Slay the Spire|Dead Cells|Hades|Enter the Gungeon|Binding of Isaac|Binding of Isaac: Rebirth|Spelunky|Spelunky 2|Shovel Knight|Hyper Light Drifter|Katana ZERO|Ori and the Blind Forest|Ori and the Will of the Wisps|Night in the Woods|Inside|Limbo|Little Nightmares|Little Nightmares II|Journey|Abzû|Gris|Oxenfree|Oxenfree II|Resident Evil 2|Resident Evil 3|Resident Evil 4|Resident Evil 7|Resident Evil Village|Silent Hill 2|Silent Hill 3|Silent Hill 4|Amnesia: The Dark Descent|Amnesia: Rebirth|Amnesia: A Machine for Pigs|Outlast|Outlast 2|SOMA|Phasmophobia|Dead by Daylight|The Forest|The Forest 2|Green Hell|Don't Starve|Don't Starve Together|Project Zomboid|DayZ|Street Fighter V|Street Fighter 6|Street Fighter IV|Tekken 7|Tekken 8|Tekken Tag Tournament 2|Mortal Kombat X|Mortal Kombat 11|Mortal Kombat 1|Soulcalibur VI|Soulcalibur V|Dragon Ball FighterZ|Guilty Gear Strive|Guilty Gear Xrd|BlazBlue|King of Fighters XV|King of Fighters XIV|Injustice 2|Smash Bros Ultimate|Smash Bros Melee|Forza Horizon 4|Forza Horizon 5|Forza Motorsport 7|Gran Turismo 7|Gran Turismo Sport|Gran Turismo 6|Need for Speed Heat|Need for Speed Most Wanted|Need for Speed Underground 2|F1 2022|F1 2023|Dirt Rally|Dirt 4|Wreckfest|iRacing|Assetto Corsa|Assetto Corsa Competizione|rFactor 2|Project Cars|Project Cars 2|Mario Kart 8|Mario Kart 7|Crash Team Racing|Among Us|Fall Guys|Jackbox Party Pack|Jackbox Party Pack 2|Jackbox Party Pack 3|Jackbox Party Pack 4|Jackbox Party Pack 5|Jackbox Party Pack 6|Jackbox Party Pack 7|Jackbox Party Pack 8|Jackbox Party Pack 9|Jackbox Party Pack 10|Human Fall Flat|Gang Beasts|Move or Die|Pummel Party|Ultimate Chicken Horse"
+      },
+      "data": {
+        "color": "#F80"
+      },
+      "name_pretty": "Media>Games",
+      "subname": "Games",
+      "parent": [
+        "Media"
+      ],
+      "depth": 1,
+      "id": 8
+    },
+    {
+      "name": [
+        "Media",
+        "Video"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "YouTube|Plex|VLC|Netflix|Hulu|Disney+|Amazon Prime Video|Twitch|MPlayer|MPV|Kodi|Plexamp"
+      },
+      "data": {
+        "color": "#F33"
+      },
+      "name_pretty": "Media>Video",
+      "subname": "Video",
+      "parent": [
+        "Media"
+      ],
+      "depth": 1,
+      "id": 9
+    },
+    {
+      "name": [
+        "Media",
+        "Social Media"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "reddit|Facebook|Twitter|Instagram|devRant|TikTok|Snapchat|Pinterest|Tumblr|LinkedIn|Mastodon",
+        "ignore_case": true
+      },
+      "data": {
+        "color": "#FCC400"
+      },
+      "name_pretty": "Media>Social Media",
+      "subname": "Social Media",
+      "parent": [
+        "Media"
+      ],
+      "depth": 1,
+      "id": 10
+    },
+    {
+      "name": [
+        "Media",
+        "Music"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Spotify|Deezer|Apple Music|Tidal|Pandora|YouTube Music|Rhythmbox|Clementine|Lollypop|Musicbee",
+        "ignore_case": true
+      },
+      "data": {
+        "color": "#A8FC00"
+      },
+      "name_pretty": "Media>Music",
+      "subname": "Music",
+      "parent": [
+        "Media"
+      ],
+      "depth": 1,
+      "id": 11
+    },
+    {
+      "name": [
+        "Comms"
+      ],
+      "rule": {
+        "type": "none"
+      },
+      "data": {
+        "color": "#9FF"
+      },
+      "name_pretty": "Comms",
+      "subname": "Comms",
+      "parent": null,
+      "depth": 0,
+      "id": 12
+    },
+    {
+      "name": [
+        "Comms",
+        "IM"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Messenger|Telegram|Signal|WhatsApp|Rambox|Slack|Riot|Element|Discord|Nheko|NeoChat|Mattermost|Microsoft Teams|Zulip|IRC|Skype"
+      },
+      "name_pretty": "Comms>IM",
+      "subname": "IM",
+      "parent": [
+        "Comms"
+      ],
+      "depth": 1,
+      "id": 13,
+      "data": {}
+    },
+    {
+      "name": [
+        "Comms",
+        "Email"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Gmail|Thunderbird|mutt|alpine|Microsoft Outlook|ProtonMail|Yahoo Mail|Mailspring|Evolution|KMail"
+      },
+      "name_pretty": "Comms>Email",
+      "subname": "Email",
+      "parent": [
+        "Comms"
+      ],
+      "depth": 1,
+      "id": 14,
+      "data": {}
+    },
+    {
+      "name": [
+        "Uncategorized"
+      ],
+      "rule": {
+        "type": null
+      },
+      "data": {
+        "color": "#CCC"
+      },
+      "name_pretty": "Uncategorized",
+      "subname": "Uncategorized",
+      "parent": null,
+      "depth": 0,
+      "id": 15
+    }
+  ]
+}
